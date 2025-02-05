@@ -149,6 +149,8 @@ function modulateData(data, sampleRate, completeCallback) {
   var chunkSize = 4096; //number of samples to generate at a time
 
   encoder = new AfskEncoder(data, sampleRate, baudrate);
+  encoder.freqHi = 2083+1/3;
+  encoder.freqLo = 1562.5;
 
   var numSamples = encoder.numSamplesRequired;
   //console.log("numSamplesRequired: " + numSamples);
