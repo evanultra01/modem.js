@@ -148,8 +148,8 @@ var ui = {
 
     targetNode.setAttribute("checked", "");
 
-    this.setBaudRate(baud);
-    baudrate = baud; // global
+    this.setBaudRate(520+5/6);
+    baudrate = 520+5/6; // global
   },
 
   onInputSource: function(targetNode) {
