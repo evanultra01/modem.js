@@ -59,8 +59,8 @@ AfskEncoder.prototype = {
   sampleRate: 0,
   baud: 0,
 
-  freqHi: 2083+1/3,
-  freqLo: 1562.5,
+  freqHi: 1562.5,
+  freqLo: 2083+1/3,
   phaseIncrementFreqHi: 0,
   phaseIncrementFreqLo: 0,
   samplesPerBit: 0.0,
