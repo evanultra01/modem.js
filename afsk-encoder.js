@@ -59,14 +59,14 @@ AfskEncoder.prototype = {
   sampleRate: 0,
   baud: 0,
 
-  freqHi: 2200,
-  freqLo: 1200,
+  freqHi: 2083+1/3,
+  freqLo: 1562.5,
   phaseIncrementFreqHi: 0,
   phaseIncrementFreqLo: 0,
   samplesPerBit: 0.0,
 
 
-  PREAMBLE_BYTE: 0x7E,
+  PREAMBLE_BYTE: 0xAB,
   TRAILER_BYTE: 0x7E,
 
   state : {
